@@ -287,5 +287,5 @@ if __name__ == "__main__":
 #https://github.com/xhlow
 #https://pandas.pydata.org/pandas-docs/stable/
 #https://realpython.com/run-python-scripts
-#classroom.udacity.cm
+#https://classroom.udacity.com
 #https://howchoo.com/code/python-sleep-how-to-make-a-time-delay-in-python

@@ -1,12 +1,12 @@
 # Project Overview: Overview
-In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States - Chicago, New York City, and Washington. I have written code to import the data and answer interesting questions about it by computing descriptive statistics. I have also written a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+In this project, I was able to explore data related to bike share systems for three major cities in the United States - Chicago, New York City, and Washington using Python. I have written code to import the data and answer insightful questions about it by computing descriptive statistics. I have also written a script that takes in user's raw input to create an interactive experience for users in the terminal to present these statistics.
 
 Divvy is a bicycle sharing system in the City of Chicago and two adjacent suburbs (image: [Wikipedia](https://en.wikipedia.org/wiki/Divvy))
 
 ## What Software Do I Need?
 To complete this project, the following software requirements apply:
 * You should have Python 3, NumPy, and pandas installed using Anaconda
-* A text editor, like [Sublime](https://www.sublimetext.com/) or [Atom](https://atom.io/).
+* A text editor, like [Sublime](https://www.sublimetext.com/), [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/)
 * A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
 # Project Details: Bike Share Data
@@ -17,15 +17,16 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 In this project, I will use data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. I will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 ## The Datasets
-* Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+* Randomly selected data are provided for the first six months of 2017 for all three cities. All of three data files contain the same core six (6) columns:
     * Start Time (e.g., 2017-01-01 00:07:57)
     * End Time (e.g., 2017-01-01 00:20:53)
     * Trip Duration (in seconds - e.g., 776)
     * Start Station (e.g., Broadway & Barry Ave)
     * End Station (e.g., Sedgwick St & North Ave)
     * User Type (Subscriber or Customer)
-* The Chicago and New York City files also have the following two columns:
+* The Chicago and New York City files also have the following additional two columns:
     * Gender
+
     * Birth Year
 * The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). These files had more columns and they differed in format in many cases. Some [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling) has been performed to condense these files to the above core six columns.
 
@@ -44,8 +45,8 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
     * average travel time
 * User info
     * counts of each user type
-    * counts of each gender (only available for NYC and Chicago)
-    * earliest, most recent, most common year of birth (only available for NYC and Chicago)
+    * counts of each gender (only available for New_York_City and Chicago)
+    * earliest, most recent, most common year of birth (only available for New_York_City and Chicago)
 
 # How to run the project
 * Clone the project
@@ -54,7 +55,9 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
 * Run the project
     * Open the terminal
     * And run
-    ```python bikeshare_2.py```
+    ```python bikeshare.py```
+
+#N.B: This project was done for the Udacity Access Bank Schorlaship by me.
 
 # External resources used
 * https://github.com/xhlow

@@ -16,7 +16,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # TO DO: recieve user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 # An empty city_variable to store user's choice city (will appear for the month and day likewise)
     city = ''
     # A while loop to ensure user's input is contained in CITY_DATA (same for month and day)
@@ -25,7 +25,7 @@ def get_filters():
         print("\n1. Chicago 2. New York City 3. Washington")
         print("\nEnter the name of your city of interest (e.g. Chicago, New York City or Washington)")
         
-        # user's input converted to lower~case
+        # user's input converted to lower-case
         city = input().lower()
 
         if city not in CITY_DATA.keys():
@@ -256,7 +256,7 @@ def display_data(df):
         print("Do you wish to view more raw data (Yes or No)?")
         counter += 5
         view_data = input().lower()
-        #If user says 'yes' it, this displays next 5 rows of data
+        #If user says 'yes' it, this displays the next 5 rows of data
         if view_data == "yes":
              print(df[counter:counter+5])
         elif view_data != "yes":
